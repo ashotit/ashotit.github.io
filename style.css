@@ -1,0 +1,334 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('https://img.mercedes-benz-kiev.com/data/news/181-mercedes-benz-vision-avtr/181-Mercedes-Benz-vision-avtr-1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.header{
+	background-color: #202C4F;
+	width: 100%;
+	height: 150px;
+}
+.imgsr{
+	width: 200px;
+	position: relative;
+	left: 600px;
+	bottom: 30px; 
+	display: inline-block;
+	animation: nkarm 5s infinite alternate;
+}
+@keyframes nkarm{
+	from{
+
+	}
+
+	to{
+     transform: rotateY(360deg);
+	}
+}
+/* .header ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	transition-duration: 500ms;
+
+}
+.header ul li{
+	
+	display: inline-block;
+	font-size: 21px;
+	margin: auto 10px;
+	text-shadow: 3px 3px 3px #fff;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+	animation: lii 2s infinite alternate;
+}
+.header ul li a:hover{
+   font-size: 25px;
+	color: deepskyblue;
+}
+@keyframes lii{
+	from{
+     text-shadow: 3px 3px 3px blue;
+	}
+
+	to{
+     text-shadow: 5px 5px 5px springgreen	;
+	}
+}
+.header ul{
+	display: inline-block;
+	position: relative;
+	bottom: 120px;
+} */
+#imgs{
+	width: 20px;
+}
+.header form button{
+	background-color:rebeccapurple;
+	border-radius: 10px;
+	transition-duration: 1s;
+}
+.header form button:hover{
+	background-color: paleturquoise;
+	border-radius: 50px;
+}
+.header form input{
+	height: 30px;
+	border-radius: 50px;
+	transition-duration: 500ms;
+	padding-left: 10px;
+}
+.header form input:hover{
+	border-radius: 5px;
+}
+.header form{
+   position: absolute;	
+   top: 53px;
+	right: 80px;
+}
+.header form button{
+	position: relative;
+	top: 3px;
+}
+ .glxavor{  
+	width: 100%;
+	height: 1500px;
+	background-color: black;
+	opacity: .8;
+
+  }  
+.div1{
+	color: #fff;
+	text-align: justify;
+	display: inline-block;
+}
+.div1 h1{
+	padding-top: 10px;
+}
+.div1 p{
+	padding-right: 700px;
+}
+.wrapper{
+	font-family: sans-serif;
+	width: 500px;
+	margin: 0 auto;
+	left: 78%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+#wq{
+	display: block;
+	width: 500px;
+	height: auto;
+	
+}
+.content{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 500px;
+	opacity: 0;
+	transition: 1s ease;
+	background:black; 
+}
+.wrapper:hover .overlay{
+	opacity: .8;
+	box-shadow: 0 10px 20px #fff;
+	cursor: pointer;
+}
+.divo img:nth-child(3){
+	width: 430px;
+}
+.divo img:nth-child(1){ 
+	width: 800px;
+} 
+.divo img:nth-child(2){
+	width: 430px;
+	position: absolute;
+}
+.divo{
+	margin: auto 60px;
+}
+.slr{
+	width: 800px;
+	height: 534px;
+	background-color: black;
+	position: absolute;
+	top: 644px;
+	color: #fff;
+	opacity: 0;
+	transition-duration: 500ms;
+}
+ .slr h1{
+	padding-left: 300px;
+	padding-top: 230px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-style: italic;
+} 
+.slr:hover{
+	opacity: .8;
+	box-shadow: 0 10px 20px #fff;
+	cursor: pointer;
+}
+.ckl{
+	background-color: black;
+	opacity: 0;
+	width: 430px;
+	height: 287px;
+	position: absolute;
+	top: 644px;
+	left: 864px;
+	transition-duration: 500ms;
+}
+.ckl h1{
+	color: #fff;
+	padding: 90px 160px;
+	font-style: italic;
+}
+.ckl:hover{
+	opacity: .8;
+	box-shadow: 0 10px 20px #fff;
+	cursor: pointer;
+
+}
+.gle{
+	width: 430px;
+	height: 247px;
+	background-color: black;
+	opacity: 0; 
+	color: #fff;
+	position: absolute;
+	left: 864px;
+	top: 930px;
+	transition-duration: 500ms;
+}
+.gle h1{
+	font-style: italic;
+	padding: 80px 110px;
+}
+.gle:hover{
+	opacity: .8;
+	box-shadow: 0 10px 20px #fff;
+	cursor: pointer;
+}
+.glx{
+	background-color: black;
+	opacity: .8;
+	height: 400px;
+}
+.footer{
+	background-color: black;
+	opacity: .8;
+	height: 50px;
+   color: #fff;
+	padding: 17px 555px;
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.footer a{
+   color: #fff;
+}
+/* .divgl1{
+	background-color: black;
+	width: 100%;
+	opacity: .8;
+	height: 400px;
+}
+.eshk1{
+	margin-top: 20px;
+}
+.eshk1 img{
+	width: 450px;
+	border-radius: 20px;
+}
+.eshk1 img:nth-child(3){
+	height: 300px;    
+}
+.eshk1 img:nth-child(1){
+	margin-left: 20px;
+}
+.w214{
+	width: 450px;
+	height: 300px;
+	background-color: #000;
+	border-radius: 20px;
+	position: absolute;
+	top: 259px;
+	left: 20px;
+	opacity: 0;
+	transition-duration: 1s;
+}
+.w214:hover{
+	opacity: .8;
+	box-shadow: 0 10px 20px #fff;
+}
+.h1n1{
+	font-size: 50px;
+	font-style: italic;
+	color: #fff;
+	padding: 90px 160px;
+}
+.w213{
+	width: 450px;
+	height: 300px;
+	background-color: #000;
+	border-radius: 20px;
+	position: absolute;
+	top: 259px;
+	left: 474px;
+	opacity: 0;
+	transition-duration: 800ms;
+}
+.w213:hover{
+	opacity: .8;
+	box-shadow:  0 10px 20px  #fff;
+}
+.w212{
+	width: 450px;
+	height: 300px;
+	background-color: #000;
+	border-radius: 20px;
+	position: absolute;
+	top: 259px;
+	left: 928px;
+	opacity: 0; 
+	transition-duration: 800ms;
+}
+.w212:hover{
+	opacity: .8;
+	box-shadow: 0 10px 20px #fff;
+}
+#Q3{
+	text-align: center;
+	font-weight: 800;
+   margin-bottom: 50px;
+	font-style: italic;
+	animation: kzlar 5s infinite alternate;
+}
+@keyframes kzlar{
+	to{
+     color: blue;
+	}
+
+	from{
+    color: red;
+	 transform: rotateY(360deg);
+	}
+} */
